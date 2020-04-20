@@ -1,7 +1,92 @@
 body{
-
+   background-color: #e2e2e2;
+   font-family: 'Roboto';
+}
+.container{
+display: grid;
+grid-template-columns: 1fr 1fr;
 }
 .logo{
    -webkit-user-select: none;
    margin: auto;
+   margin-left: 29px;
+   margin-bottom: -30px;
+   
+}
+#tabela img{
+   display: flex;
+   width: 400px;
+   height: 200px;
+}
+#intro{
+   width: 450px;
+   height: 450px;
+   position: relative;
+   margin-top: 64px;
+   margin-left: 64px ;
+   background-color: #02603210;
+   border-radius: 3%;
+   text-align: left;
+   justify-content: left;
+}
+h2{
+   text-align: center;
+   padding: 8px;
+   height: 5px;
+}
+#intro p{
+   padding: 8px;
+}
+.button-intro{
+   display: block;
+   margin: auto;
+   width: 150px;
+   height: 40px;
+   border-radius: 5px;
+   background-color: #026032;
+   color: white;
+}
+.button-intro:hover{
+   background-color: rgb(50, 126, 50);
+   
+}
+#footer{
+   padding: 10px;
+}
+#calculo{
+   margin-top: 64px;
+   margin-right: 64px;
+   height: 450px;
+   width: 450px;
+   background-color: #026032;
+   border-radius: 3%;
+   
+}
+#tabela{
+   padding: 20px;
+}
+#inputs{
+   padding: 10px;
+   margin-top: -240px;
+}
+.hide{
+   opacity: 0%;
+   visibility: hidden;
+}
+#massa, #altura {
+   width: 147px;
+   margin-top: 6px;
+}
+#calculaimc{
+   width: 150px;
+   border-radius: 5px;
+}
+#calculaimc:hover{
+   background-color: green;
+}
+#res, #indice{
+   background-color: white;
+   border-radius: 7px;
+   padding: 5px;
+   text-align: center;
 }
