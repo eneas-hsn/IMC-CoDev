@@ -11,7 +11,7 @@
         <div id="intro">
             <img class="logo" src="https://coeducabrasil.com.br/wp-content/uploads/2019/09/logocoeducabr.png" >
             <h2>CoDev</h2>
-            <p>Você sabe o que é IMC? Significa Índice de Massa Corporal, e serve para avaliar o peso di individuo em relação à sua altura e assim indicar se está dentro do peso ideal, acima ou abaixo do peso desejado.
+            <p>Você sabe o que é IMC? Significa Índice de Massa Corporal, e serve para avaliar o peso di individuo em relação à sua altura e assim indicar se está dentro do peso ideal, acima ou abaixo do peso desejado.<br>
             Esse site irá te ajudar a calcular o IMC!
             </p>
             <input type="button" value="Calcular IMC" class="button-intro">
@@ -20,20 +20,28 @@
             </footer>
         </div>
         <div id="calculo">
-            <div id="tabela">
-                <img src="http://www.emagrecercomsucesso.com/wp-content/uploads/calculo-imc.png" alt="tabelaimc">
+            <div id="tabela"class="hide">
+                <img src=" http://www.emagrecercomsucesso.com/wp-content/uploads/calculo-imc.png"  alt="tabelaimc">
             </div>
-            <div id="container2">
+            <div id="container2" >
                 <div id="inputs">
+                    <br>
                     Insira sua massa (Kg)
+                    <br>
                     <input type="number" min="1" max="1000" id="massa"><br>
                     <br>
-                    Insira suma altura (m)
-                    <input type="number" max="5" step="0.1" id="altura"><br>
+                    Insira sua altura (m)
                     <br>
-                    <input type="button" value="Calcular">
+                    <input type="number" min="0.2" max="1000" step="0.1" id="altura"><br>
+                    <br>
+                    <input type="button" value="Calcular" id="calculaimc"><br>
+                     
+                    <br>
+                    <div id="res">Resultado</div>
+                    <br>
+                    <div id="indice">Insira os dados e clique no botão "Calcular"</div>
                 </div>
-                <div id="res">Resultado</div>
+                
             </div>
         </div>
     </div>
